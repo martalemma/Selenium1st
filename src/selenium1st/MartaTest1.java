@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class MartaTest1 {
 
 	public static void main(String[] args) throws InterruptedException {
-		
+		System.out.println("MartaTest1");
 //		System.setProperty("webdriver.chrome.driver", "C:\\Users\\marta\\Selenium\\selenium1st\\driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
